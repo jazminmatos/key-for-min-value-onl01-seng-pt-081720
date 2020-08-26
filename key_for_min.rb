@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |key, value| 
-    n = 
+    n = 1/0.0
     if value < n
     return n = value #reassign value of n 
     end 
