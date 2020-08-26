@@ -3,6 +3,9 @@
 
 def key_for_min_value(name_hash)
   name_hash.each {|key, value| value <=> value}
+  if value < value
+    return key
+  end
 end
 
 #iterate over hash
