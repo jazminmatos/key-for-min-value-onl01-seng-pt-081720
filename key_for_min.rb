@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value| 
     n = 501
     if value < n
-    return n = value
+    return n = value #reassign value of n 
     end 
   end
 end
