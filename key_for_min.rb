@@ -2,8 +2,8 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+      n = 1/0.0
   name_hash.each do |key, value| 
-    n = 1/0.0
     if value < n
     return n = value #reassign value of n 
     end 
