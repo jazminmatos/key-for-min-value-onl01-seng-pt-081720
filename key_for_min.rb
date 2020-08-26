@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
      n = value #reassign value of n 
      k = key #reassign value of k
     end 
+    k
   end
 end
 
