@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     value <=> value
     if value < value
     return key
-    end
+    end #perhaps use fetch_values
   end
 end
 
